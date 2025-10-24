@@ -12,7 +12,10 @@ const API_KEY =
 
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
+<<<<<<< HEAD
 console.log("API KEY carregada:", API_KEY);
+=======
+>>>>>>> 42b5d6edb0519c16c7b7890027324ac578ae5b0a
 
 async function searchMovies(query, page = 1) {
   if (!query) return { results: [], page: 1, total_pages: 1 };
