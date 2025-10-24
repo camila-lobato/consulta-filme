@@ -3,6 +3,9 @@
     "name": "tbdm-search",
     "slug": "tbdm-search",
     "version": "1.0.0",
+    "extra":{
+      "TMDB_API_KEY": "e5b35cd790583ec7ffbbf90ec40a9c60"
+    },
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "tbdmsearch",
